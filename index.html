@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amakase | Malaysian-Western Fusion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <h1>Amakase</h1>
+        <p>Malaysian-Western Fusion in Las Vegas</p>
+        <a href="#reservation" class="btn">Reserve a Table</a>
+    </header>
+
+    <section id="menu" class="section">
+        <h2>Menu</h2>
+        <div class="menu-category">
+            <h3>Appetizers</h3>
+            <ul>
+                <li>Pork Belly Chips</li>
+                <li>Malaysian Fried Chicken – Fried Chicken Covered with Sweet, Spicy and Savory Sambal</li>
+                <li>Garlic Butter Kangkung – Kangkung</li>
+                <li>Nitro Salt Salad</li>
+            </ul>
+            <h3>Mains</h3>
+            <ul>
+                <li>Nasi Lemak Burger</li>
+                <li>Hainan Beef Rendang Rice</li>
+                <li>Curry Chicken Ravioli – Creamy Malaysian Curry on top of Chicken filled Ravioli</li>
+            </ul>
+            <h3>Desserts</h3>
+            <ul>
+                <li>Durian Creme Brulee</li>
+                <li>Milo Lava Cake</li>
+                <li>Milk Tea Tiramisu</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="reservation" class="section">
+        <h2>Reservation</h2>
+        <form action="https://formspree.io/f/mqkrjkgk" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="datetime-local" name="datetime" required>
+            <textarea name="message" placeholder="Special Requests"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="location" class="section">
+        <h2>Find Us</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.689857226963!2d-115.17281668482172!3d36.11464628009007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c4d7b9be2d1f%3A0xbeeeb7db1ff7c8fa!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1588172483839!5m2!1sen!2sus"
+            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Amakase | All rights reserved</p>
+    </footer>
+</body>
+</html>
